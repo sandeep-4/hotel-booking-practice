@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.1.2",
+  "description": "hotel booking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "starts": "nodemon r-esm server.js",
+    "start": "nodemon server.js"
+
+  },
+  "author": "sandeep",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.7",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7",
+    "query-string": "^7.0.0",
+    "stripe": "^8.148.0",
+    "uniqueid": "^1.0.0"
+  }
+}
